@@ -9,9 +9,12 @@
     ],
     "type": "flarum-extension",
     "license": "MIT",
+    "homepage": "https://github.com/greenreader9/flarum-set-new-user-mentions-preference",
     "authors": [
         {
-            "name": "Piotr Tokarczyk",
+            "name": "Piotr Tokarczyk"
+        },
+        {
             "name": "Greenreader9"
         }
     ],
