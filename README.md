@@ -1,17 +1,17 @@
 ## Description
 
-User preferences: 'Someone replies to one of my posts (email)' and 'Someone mentions me in a post (email)' are turned on by default for each new user in your Flarum forum.
+User preferences: 'Someone mentions me in a post (email)' is turned on by default for each new user in your Flarum forum.
 
 ## Installation
 
 ```bash
-composer require piotr-tokarczyk/flarum-user-default-preferences
+composer require greenreader9/flarum-set-new-user-mentions-preference
 ```
 
 ## Updating
 
 ```bash
-composer update piotr-tokarczyk/flarum-user-default-preferences
+composer update greenreader9/flarum-set-new-user-mentions-preference
 php flarum cache:clear
 ```
 
