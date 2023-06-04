@@ -7,5 +7,5 @@ use Illuminate\Contracts\View\Factory;
 
 return function(Dispatcher $events, Factory $views)
 {
-    $events->subscribe(Listeners\BeforeUserWillBeSaved::class);
+    $events->subscribe(Listeners\SetEmailPrefNewUser::class);
 };
