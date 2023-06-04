@@ -7,17 +7,16 @@ use Flarum\Core\User;
 use Flarum\Event\UserWillBeSaved;
 use Illuminate\Contracts\Events\Dispatcher;
 
-class BeforeUserWillBeSaved
+class SetEmailPrefNewUser
 {
     const USER_PREFERENCES = [
         'email' => [
-            'postMentioned' => true,
             'userMentioned' => true
         ],
     ];
 
     const MAIN_PREFERENCES = [
-        'followAfterReply' => true,
+        'followAfterReply' => false,
     ];
 
     /**
