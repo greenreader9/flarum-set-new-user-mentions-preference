@@ -5,13 +5,13 @@ User preferences: 'Someone mentions me in a post (email)' is turned on by defaul
 ## Installation
 
 ```bash
-composer require greenreader9/flarum-set-new-user-mentions-preference
+composer require greenreader9/flarum-set-new-user-mentions-preference:dev-master
 ```
 
 ## Updating
 
 ```bash
-composer update greenreader9/flarum-set-new-user-mentions-preference
+composer update greenreader9/flarum-set-new-user-mentions-preference:dev-master
 php flarum cache:clear
 ```
 
